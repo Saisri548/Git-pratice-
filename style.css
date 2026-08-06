@@ -1,0 +1,58 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    padding: 40px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+/* Description List Container */
+dl {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Terms */
+dt {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-top: 20px;
+}
+
+/* Descriptions */
+dd {
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #555;
+    line-height: 1.6;
+    border-left: 4px solid #0d6efd;
+    padding-left: 12px;
+}
+
+/* Hover Effect */
+dt:hover {
+    color: #dc3545;
+    cursor: pointer;
+}
