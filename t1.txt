@@ -1,0 +1,13 @@
+git fetch is a safe and non-disruptive Git command that checks for and downloads the latest updates from a remote repository without merging them into your local branch, giving developers full control over when and how changes are integrated.
+
+Prevents automatic merges that may occur with git pull.
+Retrieves remote branches, tags, and references without altering local files.
+Allows developers to review and compare changes before merging them manually.
+Working of Git Fetch
+git fetch works by safely retrieving the latest updates from a remote repository without altering the local working branch.
+
+Git connects to the remote repository (commonly origin).
+It checks for new commits, branches, or updates on the remote.
+The updates are downloaded and stored as remote-tracking branches (for example, origin/main).
+Local branches remain unchanged during this process.
+Developers can later merge or rebase these fetched changes as needed.
